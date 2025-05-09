@@ -141,10 +141,10 @@
           <!-- Feeding Program Card -->
 <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-transform duration-200 hover:-translate-y-1">
     <div class="relative h-56">
-        <img src="{{ asset('images/campaigns/feeding-program.jpg') }}"
+        <img src="{{ asset('image/campaigns/feeding-program.jpg') }}"
              alt="Children receiving meals"
              class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
-             onerror="this.onerror=null; this.src='{{ asset('images/default.jpg') }}'">
+             onerror="this.onerror=null; this.src='{{ asset('image/default.jpg') }}'">
         <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
         <div class="absolute top-4 left-4">
             <span class="bg-green-500 text-white px-4 py-1.5 rounded-full text-sm font-medium shadow-md">
@@ -173,10 +173,10 @@
           <!-- Outreach Program Card -->
           <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-transform duration-200 hover:-translate-y-1">
     <div class="relative h-56">
-        <img src="{{ url('images/campaigns/outreach-program.jpg') }}"
+        <img src="{{ asset('image/campaigns/outreach-program.jpg') }}"
              alt="Community outreach activities"
              class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
-             onerror="this.onerror=null; this.src='{{ url('images/default.jpg') }}'">
+             onerror="this.onerror=null; this.src='{{ asset('image/default.jpg') }}'">
         <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
         <div class="absolute top-4 left-4">
             <span class="bg-blue-500 text-white px-4 py-1.5 rounded-full text-sm font-medium shadow-md">
@@ -205,10 +205,10 @@
           <!-- Rice Distribution Card -->
           <div class="campaign-card bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg">
     <div class="relative h-56">
-        <img src="{{ asset('images/campaigns/rice-distribution.jpg') }}"
+        <img src="{{ asset('image/campaigns/rice-distribution.jpg') }}"
              alt="Rice distribution to community"
              class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
-             onerror="this.onerror=null; this.src='{{ asset('images/default.jpg') }}'">
+             onerror="this.onerror=null; this.src='{{ asset('image/default.jpg') }}'">
         <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
         <div class="absolute top-4 left-4">
             <span class="bg-yellow-500 text-white px-4 py-1.5 rounded-full text-sm font-medium shadow-md">
